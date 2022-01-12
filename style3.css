@@ -1,0 +1,79 @@
+/*** Estilo para doc3.html (Tabelas) ***/
+
+#demo-table {
+  font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  }
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.demo-table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#demo-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  }
+
+
+/* basic shared rules */
+#demo-table th,
+#demo-table td {
+  text-align: right;
+  padding-right: 10px;
+  }
+
+#demo-table th {
+  font-weight: bold;
+  padding-left: 10px;
+  }
+
+
+/* header */
+#demo-table > thead > tr:first-child > th {
+  text-align: center;
+  color: blue;
+  }
+
+#demo-table > thead > tr + tr > th {
+  font-style: italic;
+  color: gray;
+  }
+
+/* fix size of superscript */
+#demo-table sup {
+  font-size: 75%;
+  }
+
+/* body */
+#demo-table td {
+  background-color: #cef;
+  padding:.5em .5em .5em 3em;
+  }
+
+
+/* footer */
+#demo-table tfoot {
+  font-weight: bold;
+  }
+
+#demo-table tfoot th {
+  color: blue;
+  }
+
+#demo-table > tfoot td {
+  background-color: #cee;
+  }
+
+#demo-table > tfoot > tr:first-child td {
+  border-top: .2em solid #7a7;
+  }
